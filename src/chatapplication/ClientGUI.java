@@ -110,8 +110,7 @@ public class ClientGUI extends JFrame implements Runnable, ActionListener{
 		host_text.addActionListener(this);
 		port_text.addActionListener(this);
 
-		//host_text.setText("128.235.44.71");
-		//port_text.setText("3456");
+		
 		host = host_text.getText();
 		port = port_text.getText();
 		connectionwindow.setContentPane(panOuter);
